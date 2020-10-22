@@ -1,0 +1,106 @@
+<!-- section a has many interesting things -->
+p.serfi {
+    font-size: small;
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(100,180,150);
+    text-align: end;
+}
+
+p.sansserfi {
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+    color: #3f4f2f;
+    text-align: center;
+}
+body{
+    background-color: #dddddd;
+    background-image: url("image-requests.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    <!-- background attachment is important pay attention to it -->
+}
+p.large{
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bolder;
+    font-variant: inherit;
+    color: purple;
+    text-align: justify;
+}
+p{
+    font-size: 1.25em;
+    font-weight: 800;
+    text-align: left;
+}
+td.top{
+    vertical-align: top;
+}
+td.middle{
+    vertical-align: middle;
+}
+td.bottom{
+    vertical-align: bottom;
+}
+span.pixel{
+    vertical-align: -10px;
+}
+p.overline{
+    text-decoration: overline;
+}
+p.indent{
+    text-indent: 50px;
+}
+p.text-transform{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+p.letter-spacing{
+    letter-spacing: -1px;
+}
+p.word-spacing{
+    word-spacing: 4px;
+}
+#border{
+    color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: ridge;
+    border-right-style: double;
+    border-width: 5px;
+    border-color: aqua;
+}
+div{
+    border: 5px solid green;
+    width: 100%;
+    height: 90px;
+}
+ul.list-style{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url("image-requests.png");
+}
+caption{
+    caption-side: top;
+}
+table{
+    border-collapse: collapse;
+    empty-cells: show;
+}
+a:hover{
+    color: red;
+}
+a:link{
+    color: deeppink;
+    cursor: crosshair;
+    text-decoration: none;
+    <!-- For deleting underline use text-decration -->
+}
+#fix{
+    position: static;
+    right: 20px;
+    bottom: 30px;
+}
