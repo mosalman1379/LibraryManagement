@@ -1,5 +1,7 @@
-
 p.solid {
-    border: 6px solid green;
-    border-radius: 5px;
+    background-color: #ffff99;
+    margin: 10px;
+    border: 5px solid green;
+    outline-offset: 10px;
+    outline: solid thick blue;
 }
