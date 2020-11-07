@@ -11,4 +11,12 @@ p.text{
     text-align: justify;
     color: green;
     direction: ltr;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-indent: 40px;
+    line-height: 1.8;
+    word-spacing: 4px;
+}
+#shadow{
+    text-shadow: 2px 2px 5px red;
 }
