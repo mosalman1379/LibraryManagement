@@ -1,7 +1,14 @@
-p.solid {
-    background-color: #ffff99;
-    margin: 10px;
-    border: 5px solid green;
-    outline-offset: 10px;
-    outline: solid thick blue;
+img.top{
+    vertical-align: top;
+}
+img.bottom{
+    vertical-align: bottom;
+}
+img.middle{
+    vertical-align: middle;
+}
+p.text{
+    text-align: justify;
+    color: green;
+    direction: ltr;
 }
