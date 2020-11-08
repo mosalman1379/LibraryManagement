@@ -1,22 +1,26 @@
-img.top{
-    vertical-align: top;
+#first:link,#first:visited{
+    background-color: #aaaaaa;
+    padding: 14px 25px;
+    text-align: center;
+    color: red;
+    display: inline-block;
 }
-img.bottom{
-    vertical-align: bottom;
-}
-img.middle{
-    vertical-align: middle;
-}
-p.text{
-    text-align: justify;
-    color: green;
-    direction: ltr;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    text-indent: 40px;
-    line-height: 1.8;
-    word-spacing: 4px;
-}
-#shadow{
-    text-shadow: 2px 2px 5px red;
-}
+a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#ffcc00;}
+
+a.two:link {color:#ff0000;}
+a.two:visited {color:#0000ff;}
+a.two:hover {font-size:150%;}
+
+a.three:link {color:#ff0000;}
+a.three:visited {color:#0000ff;}
+a.three:hover {background:#66ff66;}
+
+a.four:link {color:#ff0000;}
+a.four:visited {color:#0000ff;}
+a.four:hover {font-family:monospace;}
+
+a.five:link {color:#ff0000;text-decoration:none;}
+a.five:visited {color:#0000ff;text-decoration:none;}
+a.five:hover {text-decoration:underline;}
