@@ -1,26 +1,41 @@
-#first:link,#first:visited{
-    background-color: #aaaaaa;
-    padding: 14px 25px;
+*{box-sizing: border-box}
+.header{
+    color: white;
     text-align: center;
-    color: red;
-    display: inline-block;
+    font-size: 6vw;
+    padding: 10px;
+    background-color: grey;
 }
-a.one:link {color:#ff0000;}
-a.one:visited {color:#0000ff;}
-a.one:hover {color:#ffcc00;}
-
-a.two:link {color:#ff0000;}
-a.two:visited {color:#0000ff;}
-a.two:hover {font-size:150%;}
-
-a.three:link {color:#ff0000;}
-a.three:visited {color:#0000ff;}
-a.three:hover {background:#66ff66;}
-
-a.four:link {color:#ff0000;}
-a.four:visited {color:#0000ff;}
-a.four:hover {font-family:monospace;}
-
-a.five:link {color:#ff0000;text-decoration:none;}
-a.five:visited {color:#0000ff;text-decoration:none;}
-a.five:hover {text-decoration:underline;}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.menu{
+    width: 25%;
+    float: left;
+    padding: 15px 15px 15px 0;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu li{
+    background-color: deepskyblue;
+    margin-bottom: 8px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+.menu li:hover{
+    background-color:  #0099cc;
+}
+.content{
+    width: 75%;
+    padding: 15px;
+}
+.footer{
+    color: white;
+    padding: 15px;
+    background-color: grey;
+    text-align: center;
+}
