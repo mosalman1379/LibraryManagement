@@ -1,41 +1,29 @@
-*{box-sizing: border-box}
-.header{
-    color: white;
-    text-align: center;
-    font-size: 6vw;
-    padding: 10px;
-    background-color: grey;
-}
-.container::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.menu{
-    width: 25%;
-    float: left;
-    padding: 15px 15px 15px 0;
-}
-.menu ul{
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
-.menu li{
-    background-color: deepskyblue;
-    margin-bottom: 8px;
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
     color: white;
-    padding: 8px;
-    text-align: center;
-}
-.menu li:hover{
-    background-color:  #0099cc;
-}
-.content{
-    width: 75%;
-    padding: 15px;
-}
-.footer{
-    color: white;
-    padding: 15px;
-    background-color: grey;
-    text-align: center;
 }
